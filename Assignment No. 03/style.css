@@ -1,0 +1,155 @@
+
+/********   INDEX PAGE   ********/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-left: 130px;
+}
+
+/********   REGISTER PAGE   ********/
+
+.logo , h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-btn{
+    position: absolute;
+    top: 10px;
+    left: 4px;
+}
+
+h2{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.qualification-container {
+    display: flex;
+    align-items: center; 
+}
+
+.OTHER {
+    display: flex; 
+    align-items: center; 
+    margin-left: 300px;
+}
+
+.format{
+    display: flex;
+    margin: 15px;
+    margin-left: 230px;
+}
+
+.UPLOAD {
+    margin-left: 230px;
+}
+
+.FIRST{
+    gap: 180px;
+}
+
+.LAST{
+    gap: 182px;
+}
+
+.DATE{
+    gap: 157px;
+}
+
+.EMAIL{
+    gap: 220px;
+}
+
+.MOBILE{
+    gap: 137px;
+}
+
+.space{
+    margin-right: 205px;
+}
+
+.GENDER , .HOBBIES{
+    gap: 3px;
+}
+
+.ADDRESS{
+    gap: 200px;
+}
+
+.CITY{
+    gap: 236px;
+}
+
+.PIN-CODE{
+    gap: 200px;
+}
+
+.STATE{
+    gap: 226px;
+}
+
+.COUNTRY{
+    gap: 197px;
+}
+
+.HOBBIES {
+    margin-bottom: 0; 
+    margin-top: 5px;
+}
+
+
+.OTHER{
+    margin-left: 505px;
+}
+
+.space1{
+    margin-right: 150px;
+}
+
+.COURSES{
+    gap: 100px;
+}
+
+.space2{
+    margin-right: 128px;
+}
+
+.btn{
+   margin-left: 650px;
+}
+
+/********   LOGIN PAGE   ********/
+
+.login {
+    margin-left: 550px;
+}
+
+.EMAIL-LOGIN label{
+    margin-right: 45px;
+}
+
+.PASSWORD label{
+    margin-right: 22px;
+}
+

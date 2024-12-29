@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <a href="index.html">
+            <img src="images/back-btn.jfif" class="back-btn" alt="Back Button">
+        </a>
+        <br>
+        <br>
+
+    <div class="logo">
+        <img src="images/smit-logo.jfif" width="200" height="200" alt="SMIT Logo">
+    </div>
+    <br>
+
+    <h2>Student Registration Form</h2>
+    <br>
+
+    <form class="fields">
+            <div class="FIRST format">
+                <label for="first-name">FIRST NAME</label>
+                <span>
+                    <input type="text" id="first-name" placeholder="Enter the First Name">(max 30 characters a-z and A-Z)
+                </span>
+            </div>
+
+            <div class="LAST format">
+                <label for="last-name">LAST NAME</label>
+                <span>
+                    <input type="text" id="last-name" placeholder="Enter the Last Name">(max 30 characters a-z and A-Z)
+                </span>
+            </div>
+
+            <div class="DATE format">
+                <label for="date-of-birth">DATE OF BIRTH</label>
+                <span>
+                    <input type="date" id="date-of-birth">
+                </span>
+            </div>
+
+            <div class="EMAIL format">
+                <label for="email">EMAIL</label>
+                <span>
+                    <input type="email" id="email" placeholder="Enter the Email Address">
+                </span>
+            </div>
+
+            <div class="MOBILE format">
+                <label for="mob-num">MOBILE NUMBER</label>
+                <span>
+                    <input type="number" id="mob-num" placeholder="Enter the Mobile Number">(10 Digits Numbers)
+                </span>
+            </div>
+
+            <div class="GENDER format">
+                <label class="space" for="gender">GENDER</label>
+                    
+                    <label for="male">Male</label>
+                    <span>
+                        <input type="radio" name="gender" id="male">
+                    </span>
+
+                    <label for="female">Female</label>
+                    <span>
+                        <input type="radio" name="gender" id="female">
+                    </span>
+                
+            </div>
+
+            <div class="ADDRESS format">
+                <label for="address">ADDRESS</label>
+                <span>
+                    <textarea id="address"></textarea>
+                </span>
+            </div>
+
+            <div class="CITY format">
+                <label for="city">CITY</label>
+                <span>
+                    <input type="text" id="city" placeholder="Enter the City Name">(max 30 characters a-z and A-Z)
+                </span>
+            </div>
+
+            <div class="PIN-CODE format">
+                <label for="code">PIN CODE</label>
+                <span>
+                    <input type="number" id="code" placeholder="Enter the Pin Code">(6 Digits Numbers)
+                </span>
+            </div>
+
+            <div class="STATE format">
+                <label for="state">STATE</label>
+                <span>
+                    <input type="text" id="state" placeholder="Enter the State">(max 30 characters a-z and A-Z)
+                </span>
+            </div>
+
+            <div class="COUNTRY format">
+                <label for="country">COUNTRY</label>
+                <span>
+                    <input type="text" id="country" placeholder="Enter the Country Name">
+                </span>
+            </div>
+
+            <div class="HOBBIES format">
+                <label class="space" for="hobbies">HOBBIES</label>
+
+                <label for="drawing">Drawing</label>
+                <span>
+                    <input type="checkbox" name="hobbies" id="drawing">
+                </span>
+                <label for="singing">Singing</label>
+                <span>
+                    <input type="checkbox" name="hobbies" id="singing">
+                </span>
+                <label for="dancing">Dancing</label>
+                <span>
+                    <input type="checkbox" name="hobbies" id="dancing">
+                </span>
+                <label for="sketching">Sketching</label>
+                <span>
+                    <input type="checkbox" name="hobbies" id="sketching">
+                </span>
+            </div>
+
+            <div class="OTHER">
+                <label for="other">Other</label>
+                <span>
+                    <input type="checkbox" name="hobbies" id="other">
+                    <input type="text">
+                </span>
+            </div>
+                
+        
+            <div class="QUALIFICATION format">
+                <div class="qualification-container">
+                    <label class="space1" for="qualification">QUALIFICATION</label>
+                    <div class="columns">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>SI.No.</th>
+                                    <th>Examination</th>
+                                    <th>Board</th>
+                                    <th>Percentage</th>
+                                    <th>Year of passing</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Class X</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Class XII</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Graduation</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Masters</td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10 char max)</td>
+                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;upto 2 decimal</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="COURSES format">
+                <label for="courses">COURSES APPLIED FOR</label>
+                <select name="courses" id="courses" required>
+                    <option value="">Select any course</option>
+                    <option value="">BCA</option>
+                    <option value="">B.A</option>
+                    <option value="">B.Sc</option>
+                    <option value="">B.Com</option>
+                </select>
+            </div>
+
+            <div class="UPLOAD">
+                <label class="space2" for="Upload">UPLOAD YOUR PIC</label>
+
+                <span class="Img"> 
+                    <input type="file" id="image">
+                </span>
+                <br>    
+                <label class="formats">(only .png,.jpg,.jpeg formats allow)	</label>
+            </div>
+            
+
+            <div class="btn format">
+                <input type="submit" name="submit" id="submit"> 
+                    &nbsp;
+                <input type="reset" name="reset" id="reset">
+            </div>
+
+    </form>
+    
+    
+</body>
+</html>
