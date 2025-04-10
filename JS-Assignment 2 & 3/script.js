@@ -1,4 +1,4 @@
-/*
+
 // ********* Chap 05 ***********
 
 // 1. Write a program that take two numbers & add them in a
@@ -1063,4 +1063,3 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 document.write("Total: $" + total);
-*/
